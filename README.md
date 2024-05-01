@@ -28,3 +28,7 @@ npm test
 ## Running Tests
 
 The HTML report of the Test Suite run can be found in html-report folder in the root directory
+
+## Manual Test Cases
+
+The manual test cases can be found in the ManualTestCases.md file in the root directory
