@@ -8,6 +8,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
 
 
 ## These tests verify that the function behaves as expected under normal conditions.
+
 ```
     Example :
     "Global Quote": {
@@ -22,7 +23,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
         "09. change": "-1.2300",
         "10. change percent": "-0.7346%"
   }
-    ```
+```   
 
     -Test Case 1 – Positive Test with Valid Symbol: 
     ```
@@ -32,7 +33,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
         Send a request to the GlobalQuote function with the symbol "AAPL".
     Test Data: Symbol: "AAPL"
     Expected Result: The API returns real-time stock data for Apple Inc., including the price, volume, and other relevant information.
-   ```
+    ```
         
     -Test Case 2 – Positive Test with Valid Symbol with Low Activity: 
     ```
@@ -66,6 +67,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
     ```
 
    -Test Case 5 – Negative Test with Invalid Symbol
+    
     ```
     Test Case Description: Verify that the API handles an invalid symbol gracefully.
     Pre-Conditions: API access.
