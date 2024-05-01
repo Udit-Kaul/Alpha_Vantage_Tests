@@ -3,3 +3,6 @@
 
 # Node.js and npm specific #
 node_modules/
+
+#HTML Reports
+html-report/
