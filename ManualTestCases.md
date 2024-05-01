@@ -2,14 +2,9 @@
 
 ```
 Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo
-```
 
-#Positive Test Cases
+Example Positive Output:
 
-
-## These tests verify that the function behaves as expected under normal conditions.
-
-```
     Example :
     "Global Quote": {
         "01. symbol": "IBM",
@@ -22,8 +17,8 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
         "08. previous close": "167.4300",
         "09. change": "-1.2300",
         "10. change percent": "-0.7346%"
-  }
-```   
+          }
+```
 
     Test Case 1 – Positive Test with Valid Symbol: 
     ```
@@ -79,6 +74,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
     
     -Test Case 6 – Negative Test with Invalid API Key
 
+    ```
     Test Case Description: Verify how the API handles requests with an invalid API key.
     Pre-Conditions: API access and a known invalid API key.
     Test Steps:
@@ -87,3 +83,4 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
 
     Test Data: Valid stock symbol: "AAPL"
     Expected Result: The API returns an error response indicating that the provided API key is invalid or expired.
+    ```
