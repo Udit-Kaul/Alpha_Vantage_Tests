@@ -24,3 +24,7 @@ To run the test suite, execute the following command:
 ```
 npm test
 ```
+
+## Running Tests
+
+The HTML report of the Test Suite run can be found in html-report folder in the root directory
