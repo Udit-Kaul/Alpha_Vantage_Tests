@@ -1,0 +1,5 @@
+# Environment variables and local configurations #
+.env
+
+# Node.js and npm specific #
+node_modules/
