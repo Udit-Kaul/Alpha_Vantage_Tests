@@ -1,4 +1,4 @@
-#The test cases will be looking at the Quote Endpoint
+The test cases will be looking at the Quote Endpoint
 
 
 Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM&apikey=demo
@@ -20,14 +20,14 @@ Example Positive Output:
           }
 
 
-    Test Case 1 – Positive Test with Valid Symbol: 
+    **Test Case 1 – Positive Test with Valid Symbol: **
     
-    Test Case Description: Verify that the API returns accurate stock data for a valid symbol.
-    Pre-Conditions: API access and a known valid stock symbol (e.g., "AAPL").
-    Test Steps:
-        Send a request to the GlobalQuote function with the symbol "AAPL".
-    Test Data: Symbol: "AAPL"
-    Expected Result: The API returns real-time stock data for Apple Inc., including the price, volume, and other relevant information.
+    **1.Test Case Description:** Verify that the API returns accurate stock data for a valid symbol.
+        **Pre-Conditions:** API access and a known valid stock symbol (e.g., "AAPL").
+        **Test Steps:**
+                Send a request to the GlobalQuote function with the symbol "AAPL".
+          **Test Data:** Symbol: "AAPL"
+            **Expected Result:** The API returns real-time stock data for Apple Inc., including the price, volume, and other relevant information.
     
         
     Test Case 2 – Positive Test with Valid Symbol with Low Activity: 
