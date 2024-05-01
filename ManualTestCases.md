@@ -25,7 +25,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
   }
 ```   
 
-    -Test Case 1 – Positive Test with Valid Symbol: 
+    Test Case 1 – Positive Test with Valid Symbol: 
     ```
     Test Case Description: Verify that the API returns accurate stock data for a valid symbol.
     Pre-Conditions: API access and a known valid stock symbol (e.g., "AAPL").
@@ -35,7 +35,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
     Expected Result: The API returns real-time stock data for Apple Inc., including the price, volume, and other relevant information.
     ```
         
-    -Test Case 2 – Positive Test with Valid Symbol with Low Activity: 
+    Test Case 2 – Positive Test with Valid Symbol with Low Activity: 
     ```
     Test Case Description: Verify that the API returns accurate stock data for a stock symbol known for low trading activity 
     Pre-Conditions: API access and a known valid stock symbol (e.g., "AEAE").
@@ -45,7 +45,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
     Expected Result: The API returns real-time stock data for Altenergy Acquisition Corp, including the price, volume, and other relevant information.
     ```
     
-    -Test Case 3 – Positive Test with Market Open
+    Test Case 3 – Positive Test with Market Open
 
     ```
     Test Case Description: Verify that the API returns accurate stock data during market hours.
@@ -56,7 +56,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
     Expected Result: The API returns real-time stock data for the specified symbol, reflecting current market conditions.
     ```
 
-    -Test Case 4 – Boundary Test with High Frequency Requests
+    Test Case 4 – Boundary Test with High Frequency Requests
     ```
     Test Case Description: Test the API's behavior when subjected to a high frequency of requests.
     Pre-Conditions: API access and capability to send multiple simultaneous requests.
@@ -66,7 +66,7 @@ Example API : https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=IBM
     Expected Result: The API responds to each request without delays or errors, maintaining accurate and consistent data retrieval.
     ```
 
-   -Test Case 5 – Negative Test with Invalid Symbol
+   Test Case 5 – Negative Test with Invalid Symbol
     
     ```
     Test Case Description: Verify that the API handles an invalid symbol gracefully.
